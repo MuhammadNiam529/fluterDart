@@ -9,7 +9,7 @@ import '../../base_widgets/text_field/custom_password_textfield.dart';
 import '../../base_widgets/text_field/custom_textfield.dart';
 
 class SignInWidget extends StatefulWidget {
-  const SignInWidget({Key? key}) : super(key: key);
+  const SignInWidget({super.key});
 
   @override
   SignInWidgetState createState() => SignInWidgetState();
