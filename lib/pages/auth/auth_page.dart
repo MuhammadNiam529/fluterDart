@@ -9,7 +9,7 @@ import 'widgets/sign_up_widget.dart';
 
 class AuthPage extends StatefulWidget {
   final int initialPage;
-  const AuthPage({Key? key, this.initialPage = 0}) : super(key: key);
+  const AuthPage({super.key, this.initialPage = 0});
 
   @override
   State<AuthPage> createState() => _AuthPageState();
