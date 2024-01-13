@@ -11,13 +11,12 @@ class CustomPasswordTextField extends StatefulWidget {
   final TextInputAction? textInputAction;
 
   const CustomPasswordTextField(
-      {Key? key,
+      {super.key,
       this.controller,
       this.hintTxt,
       this.focusNode,
       this.nextNode,
-      this.textInputAction})
-      : super(key: key);
+      this.textInputAction});
 
   @override
   CustomPasswordTextFieldState createState() => CustomPasswordTextFieldState();
