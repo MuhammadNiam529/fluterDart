@@ -4,7 +4,7 @@ import 'package:flutter_fic7_app/utils/images.dart';
 import 'package:flutter_fic7_app/pages/splash/widget/splash_painter.dart';
 
 class SplashPage extends StatefulWidget {
-  const SplashPage({Key? key}) : super(key: key);
+  const SplashPage({super.key});
 
   @override
   SplashScreenState createState() => SplashScreenState();
