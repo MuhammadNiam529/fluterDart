@@ -11,14 +11,13 @@ class CustomButton extends StatelessWidget {
   final Color? backgroundColor;
   final double? radius;
   const CustomButton(
-      {Key? key,
+      {super.key,
       this.onTap,
       required this.buttonText,
       this.isBuy = false,
       this.isBorder = false,
       this.backgroundColor,
-      this.radius})
-      : super(key: key);
+      this.radius});
 
   @override
   Widget build(BuildContext context) {
