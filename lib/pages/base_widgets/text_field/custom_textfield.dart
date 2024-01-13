@@ -31,7 +31,7 @@ class CustomTextField extends StatelessWidget {
   final bool isEnable;
 
   const CustomTextField({
-    Key? key,
+    super.key,
     this.controller,
     this.hintText,
     this.textInputType,
@@ -47,7 +47,7 @@ class CustomTextField extends StatelessWidget {
     this.isBorder = false,
     this.textAlign,
     this.isEnable = true,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(context) {
