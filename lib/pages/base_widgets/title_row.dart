@@ -15,7 +15,7 @@ class TitleRow extends StatelessWidget {
   final Duration? eventDuration;
   final bool? isDetailsPage;
   final bool isFlash;
-  const TitleRow({Key? key, required this.title,this.icon, this.onTap, this.eventDuration, this.isDetailsPage, this.isFlash = false}) : super(key: key);
+  const TitleRow({super.key, required this.title,this.icon, this.onTap, this.eventDuration, this.isDetailsPage, this.isFlash = false});
 
   @override
   Widget build(BuildContext context) {
@@ -127,7 +127,7 @@ class TimerBox extends StatelessWidget {
   final bool isBorder;
   final String? day;
 
-  const TimerBox({Key? key, required this.time, this.isBorder = false, this.day}) : super(key: key);
+  const TimerBox({super.key, required this.time, this.isBorder = false, this.day});
 
   @override
   Widget build(BuildContext context) {
