@@ -13,7 +13,7 @@ import '../../base_widgets/text_field/custom_password_textfield.dart';
 import '../../base_widgets/text_field/custom_textfield.dart';
 
 class SignUpWidget extends StatefulWidget {
-  const SignUpWidget({Key? key}) : super(key: key);
+  const SignUpWidget({super.key});
 
   @override
   SignUpWidgetState createState() => SignUpWidgetState();
@@ -148,7 +148,7 @@ class SignUpWidgetState extends State<SignUpWidget> {
                     AuthLocalDatasource().saveAuthData(data);
                     Navigator.pushAndRemoveUntil(context,
                         MaterialPageRoute(builder: (context) {
-                      return DashboardPage();
+                      return const DashboardPage();
                     }), (route) => false);
                   });
             },
